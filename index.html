@@ -30,12 +30,12 @@
           <div class="panel-body">
             <form>
               <div class="form-group">
-                <label for="exampleInputEmail1">Search Terms</label>
-                <input type="email" class="form-control" id="exampleInputEmail1">
+                <label for="searchDirectory">Search Terms</label>
+                <input type="search" class="form-control" id="">
               </div>
               <div class="form-group">
                 <label for="exampleSelect1">Number of Records to Retrieve:</label>
-                <select class="form-control" id="exampleSelect1">
+                <select class="form-control" id="">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -43,7 +43,16 @@
                   <option>5</option>
                 </select>
               </div>
-              <button type="submit" class="btn btn-default">Search</button>
+              <div class="form-group">
+                <label for="startYear">Start Year (Optional):</label>
+                <input type="search" class="form-control" id="">
+              </div>
+              <div class="form-group">
+                <label for="endYear">End Year (Optional):</label>
+                <input type="search" class="form-control" id="">
+              </div>
+              <button type="submit" class="btn btn-default"> <i class="fa fa-search" aria-hidden="true"></i> Search</button>
+              <button type="submit" class="btn btn-default"> <i class="fa fa-trash" aria-hidden="true"></i> Clear Results</button>
             </form>
           </div>
         </div>
