@@ -1,3 +1,57 @@
 .jumbotron {
-   
+	background-color: #464982;
+	color: white;
+	font-size: 48px;
 }
+
+.panel-default>.panel-heading {
+	background-color: #313457;
+	color: white;
+}
+
+.panel-body {
+	color: #464982;
+}
+
+.btn {
+    color: white;
+    background-color: #B6B8D8;
+    border-color: #B6B8D8;
+}
+
+
+.btn-default {
+    color: white;
+    background-color: #707398;
+    border-color: #707398;
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: #7A7D99;
+    border-color: #7A7D99;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* 
+
+background color white
+header color 464982
+search parameter color 222450
+text color 464982
+button background color B6B8D8
+button text color white
+
+
+
+newspaper icon: <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+search icon: <i class="fa fa-search" aria-hidden="true"></i>
+clear results icon: <i class="fa fa-trash" aria-hidden="true"></i>
+top articles icon: <i class="fa fa-calendar" aria-hidden="true"></i>
+
